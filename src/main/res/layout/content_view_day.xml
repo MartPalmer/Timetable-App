@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ViewDay"
+    tools:showIn="@layout/activity_view_day">
+
+    <TextView
+        android:id="@+id/p6lesson"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:text="P6 Lesson"
+        android:textSize="24sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p5lesson" />
+
+    <Button
+        android:id="@+id/p6Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:textSize="10sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toEndOf="@+id/p6lesson"
+        app:layout_constraintTop_toBottomOf="@+id/p5Edit" />
+
+    <Button
+        android:id="@+id/p5Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:textSize="10sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toEndOf="@+id/p5lesson"
+        app:layout_constraintTop_toBottomOf="@+id/p4Edit" />
+
+    <TextView
+        android:id="@+id/p1lesson"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:text="P1 Lesson"
+        android:textSize="24sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:elevation="4dp"
+        android:textSize="10sp"
+
+        app:layout_constraintStart_toEndOf="@+id/p1lesson"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p2Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:textSize="10sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toEndOf="@+id/p2lesson"
+        app:layout_constraintTop_toBottomOf="@+id/p1Edit" />
+
+    <Button
+        android:id="@+id/p3Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:textSize="10sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toEndOf="@+id/p3lesson"
+        app:layout_constraintTop_toBottomOf="@+id/p2Edit" />
+
+    <Button
+        android:id="@+id/p4Edit"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_button"
+        android:text="Edit"
+        android:textSize="10sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toEndOf="@+id/p4lesson"
+        app:layout_constraintTop_toBottomOf="@+id/p3Edit" />
+
+    <TextView
+        android:id="@+id/p2lesson"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:text="P2 Lesson"
+        android:textSize="24sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1lesson" />
+
+    <TextView
+        android:id="@+id/p3lesson"
+        android:layout_width="275dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:text="P3 Lesson"
+        android:textSize="24sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2lesson" />
+
+    <TextView
+        android:id="@+id/p4lesson"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:text="P4 Lesson"
+        android:textSize="24sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p3lesson" />
+
+    <TextView
+        android:id="@+id/p5lesson"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_rect"
+        android:gravity="center"
+        android:text="P5 Lesson"
+        android:textSize="24sp"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p4lesson" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+</android.support.constraint.ConstraintLayout>

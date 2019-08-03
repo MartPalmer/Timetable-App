@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="deleteLessonButton">#FF000000</color>
+    <color name="deleteLessonButtonText">#FFFFFF</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorYellow">#FFBB33</color>
+
+    <color name="backgroundcolor">#f8f8f8</color>
+
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textBlack">#000000</color>
+
+    <color name="ttyellow">#ffd700</color>
+    <color name="ttbrown">#896108</color>
+    <color name="ttturquoise">#71dec5</color>
+    <color name="ttlightyellow">#ffec8b</color>
+    <color name="ttbeige">#b59486</color>
+    <color name="ttdarkbeige">#b2bd7e</color>
+    <color name="ttgreen">#008141</color>
+    <color name="ttlightgreen">#49c925</color>
+    <color  name="ttpurple">#532f5a</color>
+    <color name="ttred">#e50202</color>
+    <color name="ttvoilet">#b536da</color>
+    <color name="ttgrey">#626262</color>
+    <color name="ttmustard">#a1a100</color>
+    <color name="ttblue">#0066ff</color>
+    <color name="ttlightblue">#00ccff</color>
+    <color name="ttpink">#ff99cc</color>
+    <color name="ttorange">#ffcc33</color>
+    <color name="ttdarkorange">#ff9933</color>
+
+
+</resources>

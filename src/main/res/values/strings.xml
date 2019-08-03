@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Teacher Toolkit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_week_bmenu">WeekBMenu</string>
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="title_activity_enter_data">EnterData</string>
+    <string-array name="week_array">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="colour_array">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Light Yellow</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Orange</item>
+        <item>Light Orange</item>
+        <item>Pink</item>
+        <item>Turquiose</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Purple</item>
+        <item>Violet</item>
+        <item>Beige</item>
+        <item>Dark Beige</item>
+        <item>Grey</item>
+        <item>Mustard</item>
+    </string-array>
+
+    <string name="title_activity_change_settings">Settings</string>
+    <string name="title_activity_add_room_groups">Rooms and Groups</string>
+    <string name="title_activity_view_day">ViewDay</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_term_settings">Term Settings</string>
+    <string name="title_activity_reminders">Reminders</string>
+</resources>
